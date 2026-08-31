@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import { CallToAction } from '../components/common/CallToAction.tsx'
 import { ClickToCall } from '../components/common/ClickToCall.tsx'
+import { ProductGrid } from '../components/product/ProductGrid.tsx'
 import { homeContent } from '../content/home.ts'
+import { getFeaturedProducts } from '../content/products.ts'
 
 export function HomePage() {
   return (
@@ -109,9 +111,12 @@ export function HomePage() {
         <p className="mt-3 max-w-2xl text-lg text-ink-muted">
           {homeContent.featuredBand.description}
         </p>
+        <div className="mt-10">
+          <ProductGrid products={getFeaturedProducts()} />
+        </div>
         <Link
           to="/products"
-          className="mt-6 inline-flex text-sm font-semibold text-clay underline-offset-4 hover:underline"
+          className="mt-8 inline-flex text-sm font-semibold text-clay underline-offset-4 hover:underline"
         >
           Open the product catalog
         </Link>
