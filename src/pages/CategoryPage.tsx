@@ -33,7 +33,7 @@ export function CategoryPage() {
       <section className="bg-stone">
         <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 py-14 sm:px-6 lg:grid-cols-2">
           <div>
-            <p className="text-sm font-semibold tracking-wide text-clay uppercase">
+            <p className="text-sm font-semibold tracking-wide text-leaf uppercase">
               Collection
             </p>
             <h1 className="mt-3 font-serif text-4xl tracking-tight text-ink sm:text-5xl">

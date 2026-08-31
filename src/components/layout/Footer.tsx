@@ -4,6 +4,11 @@ import { business, navLinks, phoneHref } from '../../content/business.ts'
 export function Footer() {
   return (
     <footer className="border-t-2 border-clay bg-stone">
+      <div className="flex h-1" aria-hidden="true">
+        <span className="flex-1 bg-blood" />
+        <span className="flex-1 bg-ink" />
+        <span className="flex-1 bg-leaf" />
+      </div>
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="font-serif text-3xl text-ink">
@@ -69,7 +74,7 @@ export function Footer() {
                   href={link.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-ink hover:text-clay"
+                  className="text-ink hover:text-leaf"
                 >
                   {link.name}
                   <span className="sr-only"> (opens in a new tab)</span>

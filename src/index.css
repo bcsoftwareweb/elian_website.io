@@ -3,13 +3,15 @@
 @theme {
   --font-sans: 'Barlow', ui-sans-serif, system-ui, sans-serif;
   --font-serif: 'Bebas Neue', Impact, sans-serif;
-  --color-ink: #f3efe8;
-  --color-ink-muted: #9c948c;
-  --color-stone: #141110;
-  --color-sand: #1c1614;
-  --color-clay: #d0121f;
-  --color-clay-dark: #9a0c16;
-  --color-cream: #0a0909;
+  --color-ink: #f7f4ef;
+  --color-ink-muted: #b8b0a4;
+  --color-stone: #12110e;
+  --color-sand: #1a1814;
+  --color-clay: #c9a227;
+  --color-clay-dark: #a07f1a;
+  --color-cream: #0b0b0a;
+  --color-leaf: #3f7a48;
+  --color-blood: #c1121f;
 }
 
 html {
@@ -32,7 +34,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: 1;
-  opacity: 0.09;
+  opacity: 0.08;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.9'/%3E%3C/svg%3E");
 }
 
@@ -48,7 +50,7 @@ body::before {
 img {
   max-width: 100%;
   height: auto;
-  filter: contrast(1.08) saturate(0.92);
+  filter: contrast(1.06) saturate(0.95);
 }
 
 .font-serif {

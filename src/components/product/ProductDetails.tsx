@@ -27,7 +27,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
       </div>
 
       <div>
-        <p className="text-sm font-semibold tracking-wide text-clay uppercase">
+        <p className="text-sm font-semibold tracking-wide text-leaf uppercase">
           <Link
             to={`/collections/${product.categorySlug}`}
             className="hover:underline"
