@@ -3,14 +3,14 @@
 @theme {
   --font-sans: 'Barlow', ui-sans-serif, system-ui, sans-serif;
   --font-serif: 'Bebas Neue', Impact, sans-serif;
-  --color-ink: #f7f4ef;
-  --color-ink-muted: #b8b0a4;
-  --color-stone: #12110e;
-  --color-sand: #1a1814;
-  --color-clay: #c9a227;
-  --color-clay-dark: #a07f1a;
-  --color-cream: #0b0b0a;
-  --color-leaf: #3f7a48;
+  --color-ink: #ffffff;
+  --color-ink-muted: #b3b3b3;
+  --color-stone: #111111;
+  --color-sand: #1a1a1a;
+  --color-clay: #c1121f;
+  --color-clay-dark: #8a0c16;
+  --color-cream: #000000;
+  --color-leaf: #2f9e44;
   --color-blood: #c1121f;
 }
 
