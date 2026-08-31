@@ -20,40 +20,6 @@ export const homeContent = {
       alt: 'A dining table set with stoneware, linen, and a low floral arrangement',
     },
   },
-  offerings: [
-    {
-      title: 'Furniture',
-      description: 'Seating, tables, and storage built for daily use.',
-      image: {
-        src: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80',
-        alt: 'A green velvet sofa in a bright interior',
-      },
-    },
-    {
-      title: 'Lighting',
-      description: 'Lamps and pendants that shape the room after dark.',
-      image: {
-        src: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80',
-        alt: 'A sculptural table lamp on a wood surface',
-      },
-    },
-    {
-      title: 'Tableware',
-      description: 'Stoneware, glass, and serving pieces for the table.',
-      image: {
-        src: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=1000&q=80',
-        alt: 'Handmade ceramic bowls stacked on a linen cloth',
-      },
-    },
-    {
-      title: 'Textiles',
-      description: 'Linens, throws, and rugs with a quiet, lasting quality.',
-      image: {
-        src: 'https://images.unsplash.com/photo-1615874959474-d39191b8ba8d?auto=format&fit=crop&w=1000&q=80',
-        alt: 'Folded linen textiles on a bed',
-      },
-    },
-  ],
   featuredBand: {
     title: 'Featured pieces',
     description:

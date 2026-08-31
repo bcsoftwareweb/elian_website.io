@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import { CallToAction } from '../components/common/CallToAction.tsx'
 import { ClickToCall } from '../components/common/ClickToCall.tsx'
+import { CategorySection } from '../components/product/CategorySection.tsx'
 import { ProductGrid } from '../components/product/ProductGrid.tsx'
+import { getCategories } from '../content/categories.ts'
 import { homeContent } from '../content/home.ts'
 import { getFeaturedProducts } from '../content/products.ts'
 
@@ -71,28 +73,9 @@ export function HomePage() {
               categories can be added later without changing the site structure.
             </p>
           </div>
-          <ul className="mt-10 grid gap-6 sm:grid-cols-2">
-            {homeContent.offerings.map((offering) => (
-              <li
-                key={offering.title}
-                className="overflow-hidden rounded-2xl bg-cream"
-              >
-                <img
-                  src={offering.image.src}
-                  alt={offering.image.alt}
-                  className="h-52 w-full object-cover"
-                  width={640}
-                  height={416}
-                />
-                <div className="p-5">
-                  <h3 className="font-serif text-2xl tracking-tight">
-                    {offering.title}
-                  </h3>
-                  <p className="mt-2 text-ink-muted">{offering.description}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
+          <div className="mt-10">
+            <CategorySection categories={getCategories()} />
+          </div>
           <div className="mt-8">
             <Link
               to="/collections"
