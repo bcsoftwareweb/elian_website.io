@@ -25,6 +25,9 @@ npm run dev
 | `npm run build` | Production build |
 | `npm run preview` | Preview the production build |
 | `npm run lint` | Lint the project |
+| `npm test` | Run the test suite |
+
+GitHub Actions runs lint, tests, and the production build on every feature-branch push and pull request.
 
 ## Content architecture
 
@@ -37,5 +40,7 @@ Copy `.env.example` to `.env.local` when a CMS or form service is connected. Do 
 ## Deployment
 
 The site is a static SPA and is intended for [Vercel](https://vercel.com). `npm run build` produces the production output. Client-side routes fall back to `index.html` through `vercel.json`.
+
+Vercel deploys production from the `main` branch of `bcsoftwareweb/elian_website.io` only. Feature-branch preview deploys are disabled.
 
 Do not commit secrets. Use `.env.example` as the template for any future CMS or form endpoint variables.
