@@ -5,6 +5,7 @@ import { CategoryPage } from './pages/CategoryPage.tsx'
 import { CollectionsPage } from './pages/CollectionsPage.tsx'
 import { ContactPage } from './pages/ContactPage.tsx'
 import { HomePage } from './pages/HomePage.tsx'
+import { NotFoundPage } from './pages/NotFoundPage.tsx'
 import { ProductDetailPage } from './pages/ProductDetailPage.tsx'
 import { ProductsPage } from './pages/ProductsPage.tsx'
 
@@ -23,6 +24,7 @@ export default function App() {
           />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

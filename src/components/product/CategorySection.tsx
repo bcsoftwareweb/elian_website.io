@@ -20,6 +20,8 @@ export function CategorySection({ categories }: CategorySectionProps) {
               className="h-56 w-full object-cover"
               width={800}
               height={448}
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-5">
               <h2 className="font-serif text-2xl tracking-tight">
