@@ -69,7 +69,7 @@ function HeaderInner() {
           <ClickToCall label="Call" className="px-4 py-2" />
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-ink/15"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-ink/15"
             aria-expanded={isMenuOpen}
             aria-controls={menuId}
             onClick={() => setIsMenuOpen((open) => !open)}
@@ -110,7 +110,7 @@ function HeaderInner() {
               to={link.to}
               end={link.to === '/'}
               className={({ isActive }) =>
-                `border-b border-ink/10 py-3 text-base font-medium ${
+                `min-h-11 border-b border-ink/10 py-3 text-base font-medium ${
                   isActive ? 'text-clay' : 'text-ink'
                 }`
               }

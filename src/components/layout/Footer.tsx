@@ -69,6 +69,7 @@ export function Footer() {
                   className="text-ink hover:text-clay"
                 >
                   {link.name}
+                  <span className="sr-only"> (opens in a new tab)</span>
                 </a>
               </li>
             ))}

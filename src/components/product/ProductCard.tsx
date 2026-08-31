@@ -17,6 +17,8 @@ export function ProductCard({ product }: ProductCardProps) {
           className="h-56 w-full object-cover"
           width={640}
           height={448}
+          loading="lazy"
+          decoding="async"
         />
       </Link>
       <div className="flex flex-1 flex-col p-5">

@@ -61,6 +61,7 @@ export function ContactPage() {
                   className="font-semibold text-ink hover:text-clay"
                 >
                   {link.name}
+                  <span className="sr-only"> (opens in a new tab)</span>
                 </a>
               </li>
             ))}
