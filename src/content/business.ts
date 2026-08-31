@@ -5,24 +5,24 @@ import type { BusinessInfo, NavLink } from './types.ts'
  * without changing presentation components.
  */
 export const business: BusinessInfo = {
-  name: 'Elian',
-  legalName: 'Elian Home Goods',
-  tagline: 'Thoughtful furnishings for everyday living.',
+  name: 'ELIAN',
+  legalName: 'Elian NYC Street Wear',
+  tagline: 'NYC street wear. Black, red, and built for the block.',
   summary:
-    'Elian is a curated collection of furniture, lighting, tableware, and textiles. Visit our catalog, then call to inquire or purchase.',
+    'Elian is an NYC street wear catalog: heavyweight hoodies, tees, outerwear, and caps. Browse the drop, then call to cop. There is no online checkout.',
   phone: '+15550102400',
   phoneDisplay: '(555) 010-2400',
-  email: 'hello@elian.example',
-  addressLines: ['1840 Market Street', 'Suite 210', 'Portland, OR 97205'],
+  email: 'shop@elian.example',
+  addressLines: ['88 Orchard Street', 'Lower East Side', 'New York, NY 10002'],
   hours: [
-    'Monday–Friday: 9:00 AM – 6:00 PM',
-    'Saturday: 10:00 AM – 4:00 PM',
-    'Sunday: Closed',
+    'Tuesday–Saturday: 12:00 PM – 8:00 PM',
+    'Sunday: 12:00 PM – 6:00 PM',
+    'Monday: Closed',
   ],
   socialLinks: [
     { id: 'instagram', name: 'Instagram', href: 'https://instagram.com' },
-    { id: 'facebook', name: 'Facebook', href: 'https://facebook.com' },
-    { id: 'pinterest', name: 'Pinterest', href: 'https://pinterest.com' },
+    { id: 'tiktok', name: 'TikTok', href: 'https://tiktok.com' },
+    { id: 'youtube', name: 'YouTube', href: 'https://youtube.com' },
   ],
 }
 

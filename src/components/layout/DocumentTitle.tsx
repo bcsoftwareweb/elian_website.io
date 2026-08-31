@@ -5,36 +5,36 @@ import { getProductBySlug } from '../../content/products.ts'
 
 function titleForPath(pathname: string): string {
   if (pathname === '/') {
-    return 'Elian | Home Furnishings'
+    return 'ELIAN | NYC Street Wear'
   }
 
   if (pathname === '/products') {
-    return 'Products | Elian'
+    return 'Products | ELIAN'
   }
 
   if (pathname.startsWith('/products/')) {
     const product = getProductBySlug(pathname.replace('/products/', ''))
-    return product ? `${product.name} | Elian` : 'Product | Elian'
+    return product ? `${product.name} | ELIAN` : 'Product | ELIAN'
   }
 
   if (pathname === '/collections') {
-    return 'Collections | Elian'
+    return 'Collections | ELIAN'
   }
 
   if (pathname.startsWith('/collections/')) {
     const category = getCategoryBySlug(pathname.replace('/collections/', ''))
-    return category ? `${category.name} | Elian` : 'Collection | Elian'
+    return category ? `${category.name} | ELIAN` : 'Collection | ELIAN'
   }
 
   if (pathname === '/about') {
-    return 'About | Elian'
+    return 'About | ELIAN'
   }
 
   if (pathname === '/contact') {
-    return 'Contact | Elian'
+    return 'Contact | ELIAN'
   }
 
-  return 'Page not found | Elian'
+  return 'Page not found | ELIAN'
 }
 
 export function DocumentTitle() {

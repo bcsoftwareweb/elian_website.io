@@ -53,11 +53,11 @@ export function ContactForm() {
 
   if (status === 'success') {
     return (
-      <div className="rounded-2xl bg-stone p-6 sm:p-8" role="status">
+      <div className="rounded-none border border-ink/10 bg-stone p-6 sm:p-8" role="status">
         <h2 className="font-serif text-3xl tracking-tight">Message received</h2>
         <p className="mt-3 text-ink-muted">
-          Thank you. For the fastest response, call the studio and we can look
-          up the piece you asked about.
+          Thank you. For the fastest response, call the shop and we can pull the
+          piece you asked about.
         </p>
         <div className="mt-6">
           <ClickToCall label="Call Now" />
@@ -70,12 +70,12 @@ export function ContactForm() {
     <form
       onSubmit={onSubmit}
       noValidate
-      className="rounded-2xl bg-stone p-6 sm:p-8"
+      className="rounded-none border border-ink/10 bg-stone p-6 sm:p-8"
     >
       <h2 className="font-serif text-3xl tracking-tight">Send a message</h2>
       <p className="mt-3 text-ink-muted">
         Prefer not to call first? Send your details and we will follow up. For
-        the fastest response, call the studio.
+        the fastest response, call the shop.
       </p>
 
       <div className="mt-8 grid gap-5">
@@ -124,7 +124,7 @@ export function ContactForm() {
             onChange={(event) =>
               setValues((current) => ({ ...current, message: event.target.value }))
             }
-            className="mt-2 w-full rounded-xl border border-ink/15 bg-cream px-3 py-2.5 text-base text-ink"
+            className="mt-2 w-full rounded-none border border-ink/20 bg-sand px-3 py-2.5 text-base text-ink"
           />
           {errors.message ? (
             <p id={errorId('message')} className="mt-2 text-sm text-clay" role="alert">
@@ -136,14 +136,14 @@ export function ContactForm() {
 
       {status === 'error' ? (
         <p className="mt-5 text-sm text-clay" role="alert">
-          The message could not be sent. Please call the studio instead.
+          The message could not be sent. Please call the shop instead.
         </p>
       ) : null}
 
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-clay px-5 py-2.5 text-sm font-semibold text-cream transition hover:bg-clay-dark disabled:opacity-70 sm:w-auto"
+        className="mt-6 inline-flex w-full items-center justify-center rounded-none bg-clay px-5 py-2.5 text-xs font-bold tracking-[0.18em] text-cream uppercase transition hover:bg-clay-dark disabled:opacity-70 sm:w-auto"
       >
         {status === 'submitting' ? 'Sending…' : 'Send message'}
       </button>
@@ -187,7 +187,7 @@ function Field({
         aria-invalid={Boolean(error)}
         aria-describedby={error ? errorId : undefined}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-2 w-full rounded-xl border border-ink/15 bg-cream px-3 py-2.5 text-base text-ink"
+        className="mt-2 w-full rounded-none border border-ink/20 bg-sand px-3 py-2.5 text-base text-ink"
       />
       {error ? (
         <p id={errorId} className="mt-2 text-sm text-clay" role="alert">

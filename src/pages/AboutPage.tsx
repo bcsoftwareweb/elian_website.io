@@ -20,7 +20,7 @@ export function AboutPage() {
           <img
             src={aboutContent.hero.image.src}
             alt={aboutContent.hero.image.alt}
-            className="h-72 w-full rounded-2xl object-cover sm:h-96"
+            className="h-72 w-full rounded-none object-cover sm:h-96"
             width={900}
             height={720}
           />
@@ -48,7 +48,7 @@ export function AboutPage() {
           </p>
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
             {aboutContent.values.map((value) => (
-              <li key={value.title} className="rounded-2xl bg-cream p-6">
+              <li key={value.title} className="border border-ink/10 bg-cream p-6">
                 <h3 className="font-serif text-2xl tracking-tight">
                   {value.title}
                 </h3>
@@ -63,7 +63,7 @@ export function AboutPage() {
         <img
           src={aboutContent.studio.image.src}
           alt={aboutContent.studio.image.alt}
-          className="h-72 w-full rounded-2xl object-cover sm:h-96"
+          className="h-72 w-full rounded-none object-cover sm:h-96"
           width={800}
           height={640}
         />
@@ -78,8 +78,8 @@ export function AboutPage() {
       </section>
 
       <CallToAction
-        title="Talk with the studio"
-        description="Call to ask about a piece, request an appointment, or discuss a room you are furnishing."
+        title="Talk with the shop"
+        description="Call to ask about a piece, pull a size, or stop by Orchard Street."
       />
     </>
   )

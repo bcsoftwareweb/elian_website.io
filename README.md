@@ -1,6 +1,6 @@
 # Elian
 
-A five-page product showcase website for Elian, a home furnishings catalog. Visitors browse products and call the business to inquire or purchase. There is no online checkout.
+A five-page product showcase website for Elian, an NYC street wear catalog. Visitors browse hoodies, tees, outerwear, and caps, then call the shop to inquire or cop. There is no online checkout.
 
 ## Stack
 

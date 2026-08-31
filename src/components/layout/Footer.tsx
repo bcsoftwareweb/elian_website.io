@@ -3,11 +3,14 @@ import { business, navLinks, phoneHref } from '../../content/business.ts'
 
 export function Footer() {
   return (
-    <footer className="border-t border-ink/10 bg-stone">
+    <footer className="border-t-2 border-clay bg-stone">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-serif text-2xl tracking-tight text-ink">
+          <p className="font-serif text-3xl text-ink">
             {business.name}
+          </p>
+          <p className="text-[10px] font-bold tracking-[0.28em] text-clay uppercase">
+            NYC Street Wear
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-ink-muted">
             {business.tagline}
@@ -83,7 +86,7 @@ export function Footer() {
             © {new Date().getFullYear()} {business.legalName}. All rights
             reserved.
           </p>
-          <p>Call to inquire or purchase. Online checkout is not available.</p>
+          <p>Call to cop. Online checkout is not available.</p>
         </div>
       </div>
     </footer>

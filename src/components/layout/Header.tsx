@@ -34,14 +34,17 @@ function HeaderInner() {
   }, [isMenuOpen])
 
   return (
-    <header className="sticky top-0 z-40 border-b border-ink/10 bg-cream/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b-2 border-clay bg-cream/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link
           to="/"
-          className="font-serif text-2xl tracking-tight text-ink"
+          className="leading-none text-ink"
           aria-label={`${business.name} home`}
         >
-          {business.name}
+          <span className="font-serif text-3xl">{business.name}</span>
+          <span className="mt-0.5 block text-[10px] font-bold tracking-[0.28em] text-clay uppercase">
+            NYC Street Wear
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-7 lg:flex">
@@ -69,7 +72,7 @@ function HeaderInner() {
           <ClickToCall label="Call" className="px-4 py-2" />
           <button
             type="button"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-ink/15"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-none border border-ink/25"
             aria-expanded={isMenuOpen}
             aria-controls={menuId}
             onClick={() => setIsMenuOpen((open) => !open)}

@@ -11,13 +11,13 @@ export function NotFoundPage() {
       <div className="mt-6 flex flex-col gap-3 sm:flex-row">
         <Link
           to="/"
-          className="inline-flex items-center justify-center rounded-full bg-clay px-5 py-2.5 text-sm font-semibold text-cream hover:bg-clay-dark"
+          className="inline-flex items-center justify-center rounded-none bg-clay px-5 py-2.5 text-xs font-bold tracking-[0.18em] text-cream uppercase hover:bg-clay-dark"
         >
           Home
         </Link>
         <Link
           to="/products"
-          className="inline-flex items-center justify-center rounded-full border border-ink/15 px-5 py-2.5 text-sm font-semibold text-ink hover:bg-stone"
+          className="inline-flex items-center justify-center rounded-none border border-ink/25 px-5 py-2.5 text-xs font-bold tracking-[0.18em] text-ink uppercase hover:border-clay"
         >
           Products
         </Link>

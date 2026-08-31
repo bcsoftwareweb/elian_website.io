@@ -13,9 +13,8 @@ export function ProductsPage() {
             Products
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-ink-muted">
-            Browse the current Elian catalog. Each piece can be purchased by
-            phone. Availability, finishes, and lead times are confirmed when you
-            call.
+            Browse the current Elian drop. Call to cop a size. Stock and
+            colorways are confirmed on the phone.
           </p>
         </div>
       </section>
@@ -25,8 +24,8 @@ export function ProductsPage() {
       </section>
 
       <CallToAction
-        title="Call to purchase"
-        description="There is no shopping cart on this site. Call Elian to reserve a piece or ask about a similar option."
+        title="Call to cop"
+        description="There is no cart on this site. Call Elian to lock a size or ask about a similar piece."
       />
     </>
   )

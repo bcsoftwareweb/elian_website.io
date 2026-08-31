@@ -8,10 +8,10 @@ type ClickToCallProps = {
 
 const variants = {
   primary:
-    'inline-flex min-h-11 items-center justify-center rounded-full bg-clay px-5 py-2.5 text-sm font-semibold text-cream transition hover:bg-clay-dark',
+    'inline-flex min-h-11 items-center justify-center rounded-none bg-clay px-5 py-2.5 text-xs font-bold tracking-[0.18em] text-cream uppercase transition hover:bg-clay-dark',
   secondary:
-    'inline-flex min-h-11 items-center justify-center rounded-full border border-ink/15 bg-cream px-5 py-2.5 text-sm font-semibold text-ink transition hover:border-ink/30 hover:bg-stone',
-  text: 'inline-flex items-center font-semibold text-clay underline-offset-4 hover:underline',
+    'inline-flex min-h-11 items-center justify-center rounded-none border border-ink/25 bg-cream px-5 py-2.5 text-xs font-bold tracking-[0.18em] text-ink uppercase transition hover:border-clay hover:text-clay',
+  text: 'inline-flex items-center text-xs font-bold tracking-[0.18em] text-clay uppercase underline-offset-4 hover:underline',
 }
 
 export function ClickToCall({

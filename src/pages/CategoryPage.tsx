@@ -16,7 +16,7 @@ export function CategoryPage() {
           Collection not found
         </h1>
         <p className="mt-4 text-lg text-ink-muted">
-          This collection is not in the current catalog.
+          This collection is not in the current drop.
         </p>
         <Link
           to="/collections"
@@ -46,7 +46,7 @@ export function CategoryPage() {
           <img
             src={category.image.src}
             alt={category.image.alt}
-            className="h-64 w-full rounded-2xl object-cover"
+            className="h-64 w-full rounded-none object-cover"
             width={800}
             height={512}
           />
@@ -59,7 +59,7 @@ export function CategoryPage() {
 
       <CallToAction
         title={`Call about ${category.name.toLowerCase()}`}
-        description="Ask about current stock, finishes, or a similar piece from this collection."
+        description="Ask about current stock, sizes, or a similar piece from this collection."
       />
     </>
   )

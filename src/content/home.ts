@@ -1,33 +1,33 @@
 export const homeContent = {
   hero: {
-    eyebrow: 'Home furnishings',
-    title: 'Pieces chosen for how they live in a room.',
+    eyebrow: 'NYC street wear',
+    title: 'Cut for the city. Worn until it frays.',
     description:
-      'Elian is a curated catalog of furniture, lighting, tableware, and textiles. Browse the collection, then call to inquire or purchase.',
+      'Elian is a tight NYC street wear drop: hoodies, tees, outerwear, and caps. No cart. Call the shop to cop.',
     image: {
-      src: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=80',
-      alt: 'A calm living room with a linen sofa, wood table, and ceramic lamp',
+      src: 'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1800&q=80',
+      alt: 'Street style in the city wearing a dark jacket and cap',
     },
   },
   introduction: {
-    title: 'A smaller catalog, chosen with care.',
+    title: 'Small drops. Heavy fabric. No fluff.',
     body: [
-      'Elian is not a warehouse. We present a focused selection of physical products for the home, with enough detail to help you decide and a direct line to someone who can answer questions.',
-      'When you are ready, call us. We will confirm availability, materials, lead times, and delivery options.',
+      'Elian is not a mall brand. We keep the catalog short so every piece earns its place: weight, wash, and how it sits on the street.',
+      'When you are ready, call the LES shop. We confirm size, colorway, and what is actually in stock.',
     ],
     image: {
-      src: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1400&q=80',
-      alt: 'A dining table set with stoneware, linen, and a low floral arrangement',
+      src: 'https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1400&q=80',
+      alt: 'New York City street at night with neon and traffic',
     },
   },
   featuredBand: {
-    title: 'Featured pieces',
+    title: 'On the rack',
     description:
-      'A short list of current favorites. Full specifications and pricing live in the product catalog.',
+      'Current favorites from the drop. Specs, sizes, and prices live in the full catalog.',
   },
   cta: {
-    title: 'Ready to choose a piece?',
+    title: 'Ready to cop?',
     description:
-      'Call Elian to confirm availability, discuss finishes, or place an order. We do not sell products online.',
+      'Call Elian to lock a size or ask about the next drop. We do not sell online.',
   },
 }
