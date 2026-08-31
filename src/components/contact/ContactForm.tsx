@@ -127,7 +127,7 @@ export function ContactForm() {
             className="mt-2 w-full rounded-none border border-ink/20 bg-sand px-3 py-2.5 text-base text-ink"
           />
           {errors.message ? (
-            <p id={errorId('message')} className="mt-2 text-sm text-clay" role="alert">
+            <p id={errorId('message')} className="mt-2 text-sm text-blood" role="alert">
               {errors.message}
             </p>
           ) : null}
@@ -135,7 +135,7 @@ export function ContactForm() {
       </div>
 
       {status === 'error' ? (
-        <p className="mt-5 text-sm text-clay" role="alert">
+        <p className="mt-5 text-sm text-blood" role="alert">
           The message could not be sent. Please call the shop instead.
         </p>
       ) : null}
@@ -190,7 +190,7 @@ function Field({
         className="mt-2 w-full rounded-none border border-ink/20 bg-sand px-3 py-2.5 text-base text-ink"
       />
       {error ? (
-        <p id={errorId} className="mt-2 text-sm text-clay" role="alert">
+        <p id={errorId} className="mt-2 text-sm text-blood" role="alert">
           {error}
         </p>
       ) : null}

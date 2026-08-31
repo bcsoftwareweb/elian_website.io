@@ -22,7 +22,7 @@ export function ProductCard({ product }: ProductCardProps) {
         />
       </Link>
       <div className="flex flex-1 flex-col p-5">
-        <p className="text-xs font-semibold tracking-wide text-clay uppercase">
+        <p className="text-xs font-semibold tracking-wide text-leaf uppercase">
           {getProductCategoryName(product)}
         </p>
         <h3 className="mt-2 font-serif text-2xl tracking-tight">

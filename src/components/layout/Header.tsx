@@ -35,6 +35,11 @@ function HeaderInner() {
 
   return (
     <header className="sticky top-0 z-40 border-b-2 border-clay bg-cream/95 backdrop-blur">
+      <div className="flex h-1" aria-hidden="true">
+        <span className="flex-1 bg-blood" />
+        <span className="flex-1 bg-ink" />
+        <span className="flex-1 bg-leaf" />
+      </div>
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link
           to="/"
@@ -55,7 +60,7 @@ function HeaderInner() {
               end={link.to === '/'}
               className={({ isActive }) =>
                 `text-sm font-medium transition ${
-                  isActive ? 'text-clay' : 'text-ink-muted hover:text-ink'
+                  isActive ? 'text-clay' : 'text-ink-muted hover:text-leaf'
                 }`
               }
             >

@@ -58,7 +58,7 @@ export function ContactPage() {
                   href={link.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="font-semibold text-ink hover:text-clay"
+                  className="font-semibold text-ink hover:text-leaf"
                 >
                   {link.name}
                   <span className="sr-only"> (opens in a new tab)</span>
