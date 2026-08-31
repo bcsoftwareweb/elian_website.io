@@ -12,7 +12,7 @@ export function CategorySection({ categories }: CategorySectionProps) {
         <li key={category.slug}>
           <Link
             to={`/collections/${category.slug}`}
-            className="block overflow-hidden rounded-2xl bg-stone transition hover:bg-sand"
+            className="block overflow-hidden rounded-none border border-ink/10 bg-stone transition hover:border-clay"
           >
             <img
               src={category.image.src}

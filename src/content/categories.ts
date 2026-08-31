@@ -6,39 +6,39 @@ import type { Category } from './types.ts'
  */
 export const categories: Category[] = [
   {
-    slug: 'furniture',
-    name: 'Furniture',
-    description: 'Seating, tables, and storage selected for daily use.',
+    slug: 'hoodies',
+    name: 'Hoodies',
+    description: 'Heavyweight fleece cut for cold platforms and late nights.',
     image: {
-      src: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A green velvet sofa in a bright interior',
+      src: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1200&q=80',
+      alt: 'A black hoodie hanging against a dark wall',
     },
   },
   {
-    slug: 'lighting',
-    name: 'Lighting',
-    description: 'Lamps and pendants that shape the room after dark.',
+    slug: 'tees',
+    name: 'Tees',
+    description: 'Boxy cuts, faded blacks, and graphics that do not peel off in a week.',
     image: {
-      src: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A sculptural table lamp on a wood surface',
+      src: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80',
+      alt: 'A folded white t-shirt on a dark surface',
     },
   },
   {
-    slug: 'tableware',
-    name: 'Tableware',
-    description: 'Stoneware, glass, and serving pieces for the table.',
+    slug: 'outerwear',
+    name: 'Outerwear',
+    description: 'Bombers, coaches, and chore coats built to scuff.',
     image: {
-      src: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=1200&q=80',
-      alt: 'Handmade ceramic bowls stacked on a linen cloth',
+      src: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1200&q=80',
+      alt: 'A bomber jacket on a hanger',
     },
   },
   {
-    slug: 'textiles',
-    name: 'Textiles',
-    description: 'Linens, throws, and rugs with a quiet, lasting quality.',
+    slug: 'caps',
+    name: 'Caps',
+    description: 'Six-panels and camps that sit right with a hoodie.',
     image: {
-      src: 'https://images.unsplash.com/photo-1615874959474-d39191b8ba8d?auto=format&fit=crop&w=1200&q=80',
-      alt: 'Folded linen textiles on a bed',
+      src: 'https://images.unsplash.com/photo-1588850561407-42e62b481bba?auto=format&fit=crop&w=1200&q=80',
+      alt: 'A black baseball cap',
     },
   },
 ]

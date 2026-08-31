@@ -19,7 +19,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
             key={image.src}
             src={image.src}
             alt={image.alt}
-            className="w-full rounded-2xl object-cover"
+            className="w-full rounded-none object-cover"
             width={900}
             height={720}
           />
@@ -58,7 +58,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
         </dl>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <ClickToCall label="Call to Purchase" />
+          <ClickToCall label="Call to Cop" />
           <ClickToCall
             variant="secondary"
             label="Call for More Information"

@@ -12,8 +12,7 @@ export function ProductDetailPage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <h1 className="font-serif text-4xl tracking-tight">Product not found</h1>
         <p className="mt-4 text-lg text-ink-muted">
-          This product is no longer listed. Browse the catalog or call us for
-          current availability.
+          This product is no longer listed. Browse the drop or call the shop.
         </p>
         <Link
           to="/products"
@@ -29,8 +28,8 @@ export function ProductDetailPage() {
     <>
       <ProductDetails product={product} />
       <CallToAction
-        title="Call to purchase this piece"
-        description="We will confirm the finish, size, and current lead time before you order."
+        title="Call to cop this piece"
+        description="We will confirm size, colorway, and what is actually in the shop."
       />
     </>
   )

@@ -11,8 +11,8 @@ export function ContactPage() {
             Contact
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-ink-muted">
-            Call to inquire about a product, request an appointment, or place an
-            order. Elian does not sell products online.
+            Call to inquire about a piece, pull a size, or place an order. Elian
+            does not sell products online.
           </p>
           <div className="mt-8">
             <ClickToCall label={`Call ${business.phoneDisplay}`} />
@@ -22,7 +22,7 @@ export function ContactPage() {
 
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2">
         <div>
-          <h2 className="font-serif text-3xl tracking-tight">Studio details</h2>
+          <h2 className="font-serif text-3xl tracking-tight">Shop details</h2>
           <address className="mt-5 space-y-3 text-base not-italic text-ink-muted">
             <div>
               <p className="font-semibold text-ink">Address</p>

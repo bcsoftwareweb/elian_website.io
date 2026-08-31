@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="6" fill="#1C1916" />
+  <rect width="32" height="32" fill="#0A0909" />
+  <rect width="32" height="4" fill="#D0121F" />
   <text
     x="16"
-    y="22"
+    y="23"
     text-anchor="middle"
-    font-family="Georgia, serif"
+    font-family="Impact, sans-serif"
     font-size="16"
-    fill="#F6F1EA"
+    fill="#F3EFE8"
   >
     E
   </text>

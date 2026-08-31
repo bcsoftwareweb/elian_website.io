@@ -26,7 +26,7 @@ export function HomePage() {
               <ClickToCall label="Call Now" />
               <Link
                 to="/products"
-                className="inline-flex items-center justify-center rounded-full border border-ink/15 px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-cream"
+                className="inline-flex items-center justify-center rounded-none border border-ink/25 px-5 py-2.5 text-xs font-bold tracking-[0.18em] text-ink uppercase transition hover:border-clay hover:text-clay"
               >
                 Browse Products
               </Link>
@@ -35,7 +35,7 @@ export function HomePage() {
           <img
             src={homeContent.hero.image.src}
             alt={homeContent.hero.image.alt}
-            className="h-72 w-full rounded-2xl object-cover sm:h-96 lg:h-[28rem]"
+            className="h-72 w-full rounded-none object-cover sm:h-96 lg:h-[28rem]"
             width={900}
             height={720}
           />
@@ -46,7 +46,7 @@ export function HomePage() {
         <img
           src={homeContent.introduction.image.src}
           alt={homeContent.introduction.image.alt}
-          className="h-72 w-full rounded-2xl object-cover sm:h-96"
+          className="h-72 w-full rounded-none object-cover sm:h-96"
           width={800}
           height={640}
         />
@@ -66,11 +66,11 @@ export function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <div className="max-w-2xl">
             <h2 className="font-serif text-3xl tracking-tight text-ink sm:text-4xl">
-              What Elian offers
+              The drop
             </h2>
             <p className="mt-3 text-lg text-ink-muted">
-              Four collections, each kept small enough to know well. New
-              categories can be added later without changing the site structure.
+              Four collections. New categories can be added later without
+              changing the site structure.
             </p>
           </div>
           <div className="mt-10">
@@ -101,7 +101,7 @@ export function HomePage() {
           to="/products"
           className="mt-8 inline-flex text-sm font-semibold text-clay underline-offset-4 hover:underline"
         >
-          Open the product catalog
+          Open the catalog
         </Link>
       </section>
 

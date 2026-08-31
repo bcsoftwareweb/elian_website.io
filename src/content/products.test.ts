@@ -31,24 +31,24 @@ describe('product catalog data', () => {
   })
 
   it('finds a product by slug', () => {
-    const product = getProductBySlug('alder-lounge-chair')
+    const product = getProductBySlug('ironbound-hoodie')
 
-    expect(product?.name).toBe('Alder Lounge Chair')
+    expect(product?.name).toBe('Ironbound Hoodie')
   })
 
   it('filters products by category', () => {
-    const furniture = getProductsByCategory('furniture')
+    const hoodies = getProductsByCategory('hoodies')
 
-    expect(furniture.length).toBeGreaterThan(0)
+    expect(hoodies.length).toBeGreaterThan(0)
     expect(
-      furniture.every((product) => product.categorySlug === 'furniture'),
+      hoodies.every((product) => product.categorySlug === 'hoodies'),
     ).toBe(true)
   })
 
   it('resolves a human-readable category name', () => {
-    const product = getProductBySlug('ember-table-lamp')
+    const product = getProductBySlug('bowery-box-tee')
 
     expect(product).toBeDefined()
-    expect(getProductCategoryName(product!)).toBe('Lighting')
+    expect(getProductCategoryName(product!)).toBe('Tees')
   })
 })

@@ -9,8 +9,8 @@ export function ProductGrid({ products }: ProductGridProps) {
   if (products.length === 0) {
     return (
       <p className="text-ink-muted">
-        No products are available in this collection yet. Call us for current
-        availability.
+        No products are available in this collection yet. Call the shop for
+        current stock.
       </p>
     )
   }

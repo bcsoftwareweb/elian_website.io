@@ -1,48 +1,48 @@
 export const aboutContent = {
   hero: {
-    title: 'A catalog built around conversation.',
+    title: 'A LES street wear shop that still picks up the phone.',
     description:
-      'Elian started as a small showroom practice: choose fewer pieces, describe them clearly, and make it easy to call with questions.',
+      'Elian started with night walks, sample sales, and a rack that only kept what could take a beating. The catalog is still built that way.',
     image: {
-      src: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80',
-      alt: 'A calm interior with wood furniture and natural light',
+      src: 'https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=1600&q=80',
+      alt: 'A New York street corridor with fire escapes and brick',
     },
   },
   history: {
     title: 'Background',
     body: [
-      'The business began by sourcing furniture and household objects for private homes, then opened a standing catalog so customers could review pieces before visiting or calling.',
-      'Elian remains independently operated. We work with a short list of makers and keep inventory small enough that staff can speak to materials, lead times, and care.',
+      'The shop grew out of Lower East Side street wear: heavy cotton, scuffed hardware, and colorways that read black and red under subway light.',
+      'Elian is still independent. The team can talk fabric weight, wash, and what is actually hanging in the back.',
     ],
   },
   mission: {
     title: 'Mission',
-    body: 'Help people furnish rooms with durable, well-made objects, and make the purchase process personal rather than automated.',
+    body: 'Put durable NYC street wear on people who will actually wear it out, and keep buying personal instead of automated.',
   },
   values: [
     {
-      title: 'Clarity',
+      title: 'Weight',
       description:
-        'Every product listing includes the information you need before you call: materials, dimensions, and expected timing.',
+        'If it feels thin in the hand, it does not make the rack. Hoodies and tees are specced for cold platforms and long nights.',
     },
     {
       title: 'Restraint',
       description:
-        'The catalog stays short on purpose. We would rather know each piece well than offer an endless aisle.',
+        'The drop stays short on purpose. We would rather know every piece than flood the site with dead stock.',
     },
     {
-      title: 'Direct service',
+      title: 'Direct',
       description:
-        'Purchases happen by phone. A person can confirm stock, discuss finishes, and help you choose.',
+        'You cop by phone. A person can confirm size, colorway, and whether it is in the shop today.',
     },
   ],
   studio: {
-    title: 'The studio',
+    title: 'The shop',
     description:
-      'Our Portland studio is available by appointment for viewing selected pieces. Call ahead so we can set aside what you want to see.',
+      'Orchard Street, by appointment or during posted hours. Call first if you want a specific size pulled off the rack.',
     image: {
-      src: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8caf?auto=format&fit=crop&w=1400&q=80',
-      alt: 'A studio interior with seating, plants, and a wood table',
+      src: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1400&q=80',
+      alt: 'Clothing hanging on a rack in a dim shop interior',
     },
   },
 }

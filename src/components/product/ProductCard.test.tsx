@@ -19,7 +19,7 @@ describe('ProductCard', () => {
     ).toBeInTheDocument()
     expect(screen.getByText(product.description)).toBeInTheDocument()
     expect(
-      screen.getByRole('link', { name: 'Call to Purchase' }),
+      screen.getByRole('link', { name: 'Call to Cop' }),
     ).toHaveAttribute('href', 'tel:+15550102400')
     expect(screen.getByRole('link', { name: 'View details' })).toHaveAttribute(
       'href',
