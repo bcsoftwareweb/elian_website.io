@@ -43,13 +43,17 @@ export const products: Product[] = [
     description:
       'A full-zip with metal hardware that is meant to scuff. Heavy enough for a windy platform.',
     image: {
-      src: 'https://images.unsplash.com/photo-1578768079052-aa76e52d8382?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A dark zip-up hoodie',
+      src: '/images/canal-zip-hoodie.jpg',
+      alt: 'A charcoal zip-up hoodie on a hanger',
     },
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1578768079052-aa76e52d8382?auto=format&fit=crop&w=1400&q=80',
-        alt: 'Canal zip hoodie',
+        src: '/images/canal-zip-hoodie.jpg',
+        alt: 'Canal zip hoodie front',
+      },
+      {
+        src: '/images/canal-zip-lifestyle.jpg',
+        alt: 'Zip hoodie worn against a red city wall',
       },
     ],
     categorySlug: 'hoodies',
@@ -69,13 +73,17 @@ export const products: Product[] = [
     description:
       'Black body, red rib. Named after the train, not a logo dump. Rib cuffs that hold their shape.',
     image: {
-      src: 'https://images.unsplash.com/photo-1548883354-94bcfe323ff1?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A person wearing a dark hoodie',
+      src: '/images/redline-hoodie.jpg',
+      alt: 'A black hoodie with red rib cuffs and hem',
     },
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1548883354-94bcfe323ff1?auto=format&fit=crop&w=1400&q=80',
-        alt: 'Redline hoodie on body',
+        src: '/images/redline-hoodie.jpg',
+        alt: 'Redline hoodie with red rib',
+      },
+      {
+        src: '/images/redline-lifestyle.jpg',
+        alt: 'Dark hoodie worn in the city at dusk',
       },
     ],
     categorySlug: 'hoodies',
@@ -147,13 +155,13 @@ export const products: Product[] = [
     description:
       'A dense longsleeve with rib at the cuff. Sits clean under a bomber without ballooning.',
     image: {
-      src: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a99b?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A black long sleeve shirt',
+      src: '/images/city-limit-longsleeve.jpg',
+      alt: 'A black long sleeve shirt on a hanger',
     },
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a99b?auto=format&fit=crop&w=1400&q=80',
-        alt: 'City Limit longsleeve',
+        src: '/images/city-limit-longsleeve.jpg',
+        alt: 'City Limit longsleeve front',
       },
     ],
     categorySlug: 'tees',
@@ -251,12 +259,12 @@ export const products: Product[] = [
     description:
       'A low-profile six-panel with a red undervisor. Structured front, unstructured back.',
     image: {
-      src: 'https://images.unsplash.com/photo-1588850561407-42e62b481bba?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A black baseball cap',
+      src: '/images/six-panel-black.jpg',
+      alt: 'A black six-panel cap worn with a hoodie',
     },
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1588850561407-42e62b481bba?auto=format&fit=crop&w=1400&q=80',
+        src: '/images/six-panel-black.jpg',
         alt: 'Six panel black cap',
       },
     ],
@@ -277,12 +285,12 @@ export const products: Product[] = [
     description:
       'An unstructured camp cap. Black crown, red brim. Sits further back than the six-panel.',
     image: {
-      src: 'https://images.unsplash.com/photo-1575428652377-a25b653e0a1b?auto=format&fit=crop&w=1200&q=80',
-      alt: 'A camp cap',
+      src: '/images/red-brim-camp.jpg',
+      alt: 'A black camp cap with a red brim',
     },
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1575428652377-a25b653e0a1b?auto=format&fit=crop&w=1400&q=80',
+        src: '/images/red-brim-camp.jpg',
         alt: 'Red brim camp cap',
       },
     ],

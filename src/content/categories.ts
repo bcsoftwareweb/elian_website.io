@@ -37,7 +37,7 @@ export const categories: Category[] = [
     name: 'Caps',
     description: 'Six-panels and camps that sit right with a hoodie.',
     image: {
-      src: 'https://images.unsplash.com/photo-1588850561407-42e62b481bba?auto=format&fit=crop&w=1200&q=80',
+      src: '/images/six-panel-black.jpg',
       alt: 'A black baseball cap',
     },
   },
