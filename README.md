@@ -25,6 +25,9 @@ npm run dev
 | `npm run build` | Production build |
 | `npm run preview` | Preview the production build |
 | `npm run lint` | Lint the project |
+| `npm test` | Run the test suite |
+
+GitHub Actions runs lint, tests, and the production build on every feature-branch push and pull request.
 
 ## Content architecture
 
