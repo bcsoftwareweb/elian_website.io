@@ -41,4 +41,6 @@ Copy `.env.example` to `.env.local` when a CMS or form service is connected. Do 
 
 The site is a static SPA and is intended for [Vercel](https://vercel.com). `npm run build` produces the production output. Client-side routes fall back to `index.html` through `vercel.json`.
 
+Vercel deploys production from the `main` branch of `bcsoftwareweb/elian_website.io` only. Feature-branch preview deploys are disabled.
+
 Do not commit secrets. Use `.env.example` as the template for any future CMS or form endpoint variables.
