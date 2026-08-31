@@ -1,4 +1,5 @@
 import { ClickToCall } from '../components/common/ClickToCall.tsx'
+import { ContactForm } from '../components/contact/ContactForm.tsx'
 import { business, phoneHref } from '../content/business.ts'
 
 export function ContactPage() {
@@ -66,13 +67,7 @@ export function ContactPage() {
           </ul>
         </div>
 
-        <div className="rounded-2xl bg-stone p-6 sm:p-8">
-          <h2 className="font-serif text-3xl tracking-tight">Send a message</h2>
-          <p className="mt-3 text-ink-muted">
-            Prefer not to call first? Use the form and we will follow up. For
-            the fastest response, call the studio.
-          </p>
-        </div>
+        <ContactForm />
       </section>
     </>
   )
